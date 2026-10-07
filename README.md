@@ -55,11 +55,7 @@ Installez les librairies principales (OpenCV, NumPy, Ultralytics) :
 pip install opencv-python numpy ultralytics
 ```
 
-### 4. Ajouter le Modèle IA
- **Note :** Le modèle entraîné (`best.pt`) est ignoré par Git pour des raisons de poids/propriété intellectuelle.
-Placez votre fichier `best.pt` (ou `best (9).pt`) dans le dossier `models/`.
-
-### 5. Lancer l'application
+### 4. Lancer l'application
 Pour éviter les problèmes de liaisons dynamiques OpenCV sur Windows, lancez le script avec l'exécutable du venv :
 ```bash
 venv\Scripts\python.exe main3.py
