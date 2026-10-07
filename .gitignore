@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.idea/
+.vscode/
+venv/
+__pycache__/
+captures_calibrees/
+debug_profils/
+models/*.pt
+
+# Fichiers lourds de Vision par Ordinateur
+# Décommentez la ligne ci-dessous si le dossier captures est trop lourd pour GitHub
+# captures/
+*.mp4
+*.avi
+*.mov
+
+# Modèles d'apprentissage profond (s'ils sont trop lourds pour GitHub, décommentez)
+# models/*.pt
+# models/*.onnx
+# models/*.weights
+
+# Système
+.DS_Store
